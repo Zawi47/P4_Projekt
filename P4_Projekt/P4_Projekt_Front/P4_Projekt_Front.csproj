@@ -141,17 +141,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add.Designer.cs">
-      <DependentUpon>Add.cs</DependentUpon>
-    </Compile>
     <Compile Include="AddCategories.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddCategories.Designer.cs">
       <DependentUpon>AddCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomerDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomerDemo.Designer.cs">
+      <DependentUpon>AddCustomerDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomerDemographics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomerDemographics.Designer.cs">
+      <DependentUpon>AddCustomerDemographics.cs</DependentUpon>
     </Compile>
     <Compile Include="AddCustomers.cs">
       <SubType>Form</SubType>
@@ -159,7 +165,61 @@
     <Compile Include="AddCustomers.Designer.cs">
       <DependentUpon>AddCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployees.Designer.cs">
+      <DependentUpon>AddEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeTerritories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeTerritories.Designer.cs">
+      <DependentUpon>AddEmployeeTerritories.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddingData.cs" />
+    <Compile Include="AddOrderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrderDetails.Designer.cs">
+      <DependentUpon>AddOrderDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrders.Designer.cs">
+      <DependentUpon>AddOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProducts.Designer.cs">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRegion.Designer.cs">
+      <DependentUpon>AddRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddShippers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddShippers.Designer.cs">
+      <DependentUpon>AddShippers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSuppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSuppliers.Designer.cs">
+      <DependentUpon>AddSuppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTerritories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTerritories.Designer.cs">
+      <DependentUpon>AddTerritories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,14 +228,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Add.resx">
-      <DependentUpon>Add.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AddCategories.resx">
       <DependentUpon>AddCategories.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomerDemo.resx">
+      <DependentUpon>AddCustomerDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomerDemographics.resx">
+      <DependentUpon>AddCustomerDemographics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddCustomers.resx">
       <DependentUpon>AddCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployees.resx">
+      <DependentUpon>AddEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeTerritories.resx">
+      <DependentUpon>AddEmployeeTerritories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrderDetails.resx">
+      <DependentUpon>AddOrderDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrders.resx">
+      <DependentUpon>AddOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProducts.resx">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRegion.resx">
+      <DependentUpon>AddRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddShippers.resx">
+      <DependentUpon>AddShippers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSuppliers.resx">
+      <DependentUpon>AddSuppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTerritories.resx">
+      <DependentUpon>AddTerritories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
